@@ -39,7 +39,7 @@ class ContactsViewController: BaseViewController {
         self.authenticationModel = nil
         self.navigationController?.popToRootViewController(animated: true)
     }
-
+    
 }
 
 extension ContactsViewController: ContactsView {
@@ -69,9 +69,9 @@ extension ContactsViewController: ContactsView {
     
     func configureRightBarButton(_ buttonTitle: String) {
         let logoutButton = UIBarButtonItem(title: buttonTitle,
-                                              style: .plain,
-                                              target: self,
-                                              action: #selector(self.rightButtonTapped))
+                                           style: .plain,
+                                           target: self,
+                                           action: #selector(self.rightButtonTapped))
         self.navigationItem.rightBarButtonItem = logoutButton
     }
     
@@ -96,12 +96,14 @@ extension ContactsViewController: UITableViewDataSource, UITableViewDelegate {
         }
         return UITableViewCell()
     }
-
+    
 }
 
 extension ContactsViewController: ContactTableViewCellDelegate {
     
     func didClickOnInformationButton(withContact contact: Friend) {
-        <#code#>
+        let contactDetailsViewController = ContactDetailsViewController()
+        contactDetailsViewController.friend = contact
+        self.navigateToViewController(contactDetailsViewController)
     }
 }

@@ -31,7 +31,7 @@ class ContactTableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
-
+    
     // MARK: Method(s)
     
     func configureCell(_ friend: Friend) {
@@ -41,7 +41,7 @@ class ContactTableViewCell: UITableViewCell {
         self.setImage()
         self.configureInformationButton() 
     }
-
+    
     func setAlias() {
         self.contactAliasLabel.text = friend?.alias ?? ""
     }
@@ -51,6 +51,7 @@ class ContactTableViewCell: UITableViewCell {
     }
     
     func setImage() {
+        contactImageView.makeRounded()
         let url = friend?.imageURL ?? ""
         fetchImage(url) { (imageData) in
             if let data = imageData {
@@ -80,7 +81,7 @@ class ContactTableViewCell: UITableViewCell {
     
     @objc func informationButtonTap() {
         if let friend = self.friend {
-             self.delegate?.didClickOnInformationButton(withContact: friend)
+            self.delegate?.didClickOnInformationButton(withContact: friend)
         }
     }
     

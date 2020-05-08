@@ -10,8 +10,6 @@
 		F803B86C2464BEDB00FA3AF6 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F803B86B2464BEDB00FA3AF6 /* ContactsView.swift */; };
 		F8234ECB24530023001CA5A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8234ECA24530023001CA5A3 /* AppDelegate.swift */; };
 		F8234ECD24530023001CA5A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8234ECC24530023001CA5A3 /* SceneDelegate.swift */; };
-		F8234ECF24530023001CA5A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8234ECE24530023001CA5A3 /* ViewController.swift */; };
-		F8234ED224530023001CA5A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8234ED024530023001CA5A3 /* Main.storyboard */; };
 		F8234ED424530025001CA5A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8234ED324530025001CA5A3 /* Assets.xcassets */; };
 		F8234ED724530025001CA5A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8234ED524530025001CA5A3 /* LaunchScreen.storyboard */; };
 		F8234EE224530025001CA5A3 /* client_chat_applicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8234EE124530025001CA5A3 /* client_chat_applicationTests.swift */; };
@@ -31,6 +29,15 @@
 		F85DFBA72464CF5600C20564 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85DFBA62464CF5600C20564 /* ContactsViewModel.swift */; };
 		F85DFBA92465630600C20564 /* FriendsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85DFBA82465630600C20564 /* FriendsResponse.swift */; };
 		F85DFBAB2465726200C20564 /* ContactTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85DFBAA2465726200C20564 /* ContactTableViewCellDelegate.swift */; };
+		F85DFBB02465751D00C20564 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85DFBAE2465751D00C20564 /* ContactDetailsViewController.swift */; };
+		F85DFBB12465751D00C20564 /* ContactDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F85DFBAF2465751D00C20564 /* ContactDetailsViewController.xib */; };
+		F85DFBB42465754000C20564 /* ContactDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85DFBB32465754000C20564 /* ContactDetailsViewModel.swift */; };
+		F85DFBB62465755F00C20564 /* ContactDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85DFBB52465755F00C20564 /* ContactDetailsView.swift */; };
+		F85DFBB92465789B00C20564 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85DFBB82465789B00C20564 /* ImageService.swift */; };
+		F85DFBBB246578AD00C20564 /* ImageServiceImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85DFBBA246578AD00C20564 /* ImageServiceImplementation.swift */; };
+		F85DFBBE2465794C00C20564 /* ContactDetailsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85DFBBD2465794C00C20564 /* ContactDetailsRepository.swift */; };
+		F85DFBC0246579BF00C20564 /* ContactDetailsRepositoryImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85DFBBF246579BF00C20564 /* ContactDetailsRepositoryImplementation.swift */; };
+		F85DFBC22465813600C20564 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85DFBC12465813600C20564 /* ImageExtension.swift */; };
 		F8B8FE402464558300249D5F /* LoadingIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8B8FE3F2464558300249D5F /* LoadingIndicatorView.xib */; };
 		F8B8FE422464559700249D5F /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B8FE412464559700249D5F /* LoadingIndicatorView.swift */; };
 		F8B8FE442464588A00249D5F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B8FE432464588A00249D5F /* LoginView.swift */; };
@@ -61,8 +68,6 @@
 		F8234EC724530023001CA5A3 /* client-chat-application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "client-chat-application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8234ECA24530023001CA5A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8234ECC24530023001CA5A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F8234ECE24530023001CA5A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F8234ED124530023001CA5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8234ED324530025001CA5A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8234ED624530025001CA5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8234ED824530025001CA5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,6 +90,15 @@
 		F85DFBA62464CF5600C20564 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
 		F85DFBA82465630600C20564 /* FriendsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsResponse.swift; sourceTree = "<group>"; };
 		F85DFBAA2465726200C20564 /* ContactTableViewCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		F85DFBAE2465751D00C20564 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		F85DFBAF2465751D00C20564 /* ContactDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactDetailsViewController.xib; sourceTree = "<group>"; };
+		F85DFBB32465754000C20564 /* ContactDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewModel.swift; sourceTree = "<group>"; };
+		F85DFBB52465755F00C20564 /* ContactDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsView.swift; sourceTree = "<group>"; };
+		F85DFBB82465789B00C20564 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		F85DFBBA246578AD00C20564 /* ImageServiceImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageServiceImplementation.swift; sourceTree = "<group>"; };
+		F85DFBBD2465794C00C20564 /* ContactDetailsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsRepository.swift; sourceTree = "<group>"; };
+		F85DFBBF246579BF00C20564 /* ContactDetailsRepositoryImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsRepositoryImplementation.swift; sourceTree = "<group>"; };
+		F85DFBC12465813600C20564 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
 		F8B8FE3F2464558300249D5F /* LoadingIndicatorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingIndicatorView.xib; sourceTree = "<group>"; };
 		F8B8FE412464559700249D5F /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
 		F8B8FE432464588A00249D5F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -139,16 +153,14 @@
 		F8234EC924530023001CA5A3 /* client-chat-application */ = {
 			isa = PBXGroup;
 			children = (
+				F8B8FE572464B90D00249D5F /* Contacts */,
+				F8234EEC2453002D001CA5A3 /* Login */,
 				F85DFBAC246574A000C20564 /* Contact Details */,
 				F8B8FE542464A56F00249D5F /* Models */,
 				F8234EEE2453003D001CA5A3 /* Common */,
 				F8234EED24530034001CA5A3 /* Services */,
-				F8234EEC2453002D001CA5A3 /* Login */,
-				F8B8FE572464B90D00249D5F /* Contacts */,
 				F8234ECA24530023001CA5A3 /* AppDelegate.swift */,
 				F8234ECC24530023001CA5A3 /* SceneDelegate.swift */,
-				F8234ECE24530023001CA5A3 /* ViewController.swift */,
-				F8234ED024530023001CA5A3 /* Main.storyboard */,
 				F8234ED324530025001CA5A3 /* Assets.xcassets */,
 				F8234ED524530025001CA5A3 /* LaunchScreen.storyboard */,
 				F8234ED824530025001CA5A3 /* Info.plist */,
@@ -178,6 +190,7 @@
 		F8234EED24530034001CA5A3 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				F85DFBB72465788D00C20564 /* Image Service */,
 				F85DFBA12464CA7300C20564 /* Contact Service */,
 				F85DFBA02464CA6600C20564 /* Login Service */,
 			);
@@ -281,6 +294,8 @@
 		F85DFBAC246574A000C20564 /* Contact Details */ = {
 			isa = PBXGroup;
 			children = (
+				F85DFBBC2465792A00C20564 /* Repository */,
+				F85DFBB22465752A00C20564 /* View Model */,
 				F85DFBAD246574AB00C20564 /* View */,
 			);
 			path = "Contact Details";
@@ -289,8 +304,37 @@
 		F85DFBAD246574AB00C20564 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F85DFBAE2465751D00C20564 /* ContactDetailsViewController.swift */,
+				F85DFBAF2465751D00C20564 /* ContactDetailsViewController.xib */,
+				F85DFBB52465755F00C20564 /* ContactDetailsView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F85DFBB22465752A00C20564 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				F85DFBB32465754000C20564 /* ContactDetailsViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		F85DFBB72465788D00C20564 /* Image Service */ = {
+			isa = PBXGroup;
+			children = (
+				F85DFBB82465789B00C20564 /* ImageService.swift */,
+				F85DFBBA246578AD00C20564 /* ImageServiceImplementation.swift */,
+			);
+			path = "Image Service";
+			sourceTree = "<group>";
+		};
+		F85DFBBC2465792A00C20564 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				F85DFBBD2465794C00C20564 /* ContactDetailsRepository.swift */,
+				F85DFBBF246579BF00C20564 /* ContactDetailsRepositoryImplementation.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 		F8B8FE4B2464845800249D5F /* Utilities */ = {
@@ -298,6 +342,7 @@
 			children = (
 				F8B8FE4C2464847000249D5F /* DictionaryExtension.swift */,
 				F8B8FE4E2464849A00249D5F /* CharacterSetExtension.swift */,
+				F85DFBC12465813600C20564 /* ImageExtension.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -435,7 +480,7 @@
 				F8234EF8245300CD001CA5A3 /* Login.storyboard in Resources */,
 				F8234ED724530025001CA5A3 /* LaunchScreen.storyboard in Resources */,
 				F8234ED424530025001CA5A3 /* Assets.xcassets in Resources */,
-				F8234ED224530023001CA5A3 /* Main.storyboard in Resources */,
+				F85DFBB12465751D00C20564 /* ContactDetailsViewController.xib in Resources */,
 				F8234F052453022D001CA5A3 /* ErrorView.xib in Resources */,
 				F8B8FE402464558300249D5F /* LoadingIndicatorView.xib in Resources */,
 			);
@@ -456,11 +501,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B8FE562464A58100249D5F /* AuthenticationModel.swift in Sources */,
+				F85DFBBE2465794C00C20564 /* ContactDetailsRepository.swift in Sources */,
+				F85DFBB92465789B00C20564 /* ImageService.swift in Sources */,
+				F85DFBC22465813600C20564 /* ImageExtension.swift in Sources */,
+				F85DFBC0246579BF00C20564 /* ContactDetailsRepositoryImplementation.swift in Sources */,
 				F8B8FE4F2464849A00249D5F /* CharacterSetExtension.swift in Sources */,
 				F8234EFD24530120001CA5A3 /* BaseViewController.swift in Sources */,
 				F8234EFA245300E2001CA5A3 /* LoginViewController.swift in Sources */,
 				F85DFBA52464CA9100C20564 /* ContactServiceImplementation.swift in Sources */,
-				F8234ECF24530023001CA5A3 /* ViewController.swift in Sources */,
 				F8B8FE5A2464B92E00249D5F /* ContactsViewController.swift in Sources */,
 				F85DFB9D2464C9EF00C20564 /* Friend.swift in Sources */,
 				F8B8FE442464588A00249D5F /* LoginView.swift in Sources */,
@@ -468,11 +516,14 @@
 				F85DFB9B2464C96D00C20564 /* ContactsRepository.swift in Sources */,
 				F85DFBAB2465726200C20564 /* ContactTableViewCellDelegate.swift in Sources */,
 				F85DFBA72464CF5600C20564 /* ContactsViewModel.swift in Sources */,
+				F85DFBBB246578AD00C20564 /* ImageServiceImplementation.swift in Sources */,
 				F85DFB9F2464CA2900C20564 /* ContactRepositoryImplementation.swift in Sources */,
+				F85DFBB42465754000C20564 /* ContactDetailsViewModel.swift in Sources */,
 				F8B8FE51246486A100249D5F /* LoginRepository.swift in Sources */,
 				F8B8FE4D2464847000249D5F /* DictionaryExtension.swift in Sources */,
 				F8B8FE422464559700249D5F /* LoadingIndicatorView.swift in Sources */,
 				F8234EFF2453012F001CA5A3 /* BaseView.swift in Sources */,
+				F85DFBB62465755F00C20564 /* ContactDetailsView.swift in Sources */,
 				F8B8FE4A2464827800249D5F /* LoginServiceImplementation.swift in Sources */,
 				F8B8FE482464825E00249D5F /* LoginService.swift in Sources */,
 				F803B86C2464BEDB00FA3AF6 /* ContactsView.swift in Sources */,
@@ -482,6 +533,7 @@
 				F85DFBA32464CA8300C20564 /* ContactService.swift in Sources */,
 				F8234ECB24530023001CA5A3 /* AppDelegate.swift in Sources */,
 				F8B8FE4624645EFA00249D5F /* LoginViewModel.swift in Sources */,
+				F85DFBB02465751D00C20564 /* ContactDetailsViewController.swift in Sources */,
 				F8234ECD24530023001CA5A3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,14 +557,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F8234ED024530023001CA5A3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F8234ED124530023001CA5A3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F8234ED524530025001CA5A3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

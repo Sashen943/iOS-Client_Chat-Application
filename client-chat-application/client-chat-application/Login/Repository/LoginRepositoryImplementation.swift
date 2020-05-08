@@ -14,6 +14,8 @@ class LoginRepositoryImplementation: LoginRepository {
     
     let loginService = LoginServiceImplementation()
     
+    // MARK: Method(s)
+    
     func login(_ username: String, _ password: String, completionHanlder: @escaping (Result<AuthenticationModel, Error>) -> Void) {
         loginService.login(username: username, password: password) { (result) in
             switch result {
